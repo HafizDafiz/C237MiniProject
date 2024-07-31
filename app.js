@@ -27,10 +27,10 @@ const connection = mysql.createConnection({
 // user: 'root',
 // password: '',
 // database: 'c237_hobbyshop'
-host: 'sql.freedb.tech',
-user: 'freedb_c237Hafiz',
-password: '!yCjP9N5P3ZtDYF',
-database: 'freedb_c237_miniproj'
+host: 'db4free.net',
+user: 'c237hafiz',
+password: 'hafizdafiz',
+database: 'c237_hafiz'
 });
 connection.connect((err) => {
 if (err) {
