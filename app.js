@@ -23,10 +23,14 @@ const upload = multer ({storage: storage});
 // }));
 // Create MySQL connection
 const connection = mysql.createConnection({
-host: 'localhost',
-user: 'root',
-password: '',
-database: 'c237_hobbyshop'
+// host: 'localhost',
+// user: 'root',
+// password: '',
+// database: 'c237_hobbyshop'
+host: 'sql.freedb.tech',
+user: 'freedb_c237Hafiz',
+password: '!yCjP9N5P3ZtDYF',
+database: 'freedb_c237_miniproj'
 });
 connection.connect((err) => {
 if (err) {
